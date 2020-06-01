@@ -1,4 +1,4 @@
-FROM microsoft/dotnet
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2
 
 RUN apt-get update
 RUN apt-get install -y zip curl openjdk-8-jre
